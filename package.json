@@ -1,0 +1,22 @@
+{
+    "name": "crud-node-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "César Cardoba",
+    "license": "MIT",
+    "dependencies": {
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "express-myconnection": "^1.0.4",
+        "morgan": "^1.9.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
